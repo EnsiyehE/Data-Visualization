@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Animal Extinction Crisis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main>
+      <section>
+        
+          <select  id="select" style="width: 200px;">
+            <option>Total</option>
+            <!-- <option>asdas</option>
+            <option>asdas</option>
+            <option>asdas</option>
+            <option>asdas</option> -->
+          </select>       
+          <button id="myButton" type="button">
+          Click Me! to View Total Endangered
+        </button>
+
+        </select>
+        <div id="filter" class="center">Total endangered</div>
+        <div id="visualization" class="ensie"></div>
+        <div>
+          <br>The map is colored with intensity according to the Total endangered in each country at beginning.
+          <br><strong>Interactivity</strong>
+          <br>*Selecting a specific taxonomy from the dropdown or clicking on a bar would change the colors on the map.
+          <br>*Hover over a country to visualize the number of selcted group.
+          <br>*Hover over a bar to visualize the exact number.
+          <br>*Click on a country to update the bar chart.
+          <br>*Click on the button to visualize the total endangered on the map again.
+          <br>*On each selection the total number of specific selected group.
+        </div>
+      </section>
+
+      <script type="module" src="./index.js"></script>
+    </main>
+    <style>
+      .center {
+        text-align: center;
+        font-weight: bold;
+      }
+    </style>
+    <style>
+      .hover-info {
+        width: 150px;
+        z-index: 10001;
+        position: absolute;
+        background: aliceblue;
+        border: 2px solid black;
+        border-radius: 4px;
+        overflow: visible;
+      }
+
+      .triangle {
+        position: absolute;
+        z-index: -1;
+        width: 10px;
+        height: 10px;
+        left: 5px;
+        transform: rotate(45deg);
+        background: aliceblue;
+        border-left: 2px solid black;
+        border-top: 2px solid black;
+      }</style
+    >`
+  </body>
+</html>
